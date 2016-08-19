@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--Activity View Controller-->
+        <scene sceneID="qYE-3x-AsT">
+            <objects>
+                <viewController storyboardIdentifier="KNActivityViewController" id="szB-wc-Hq9" customClass="KNActivityViewController" customModule="Tipper" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5Ma-Q7-02R"/>
+                        <viewControllerLayoutGuide type="bottom" id="agd-X6-qfY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3Rn-Au-76s">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="lH5-dt-OMD">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.60000000000000009" translatesAutoresizingMaskIntoConstraints="NO" id="3E5-HY-xXW">
+                                <rect key="frame" x="278" y="345" width="44.5" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="18"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="OvalIcon" translatesAutoresizingMaskIntoConstraints="NO" id="alM-b2-GYX">
+                                <rect key="frame" x="252" y="230" width="95" height="95"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="95" id="gIa-57-rPJ"/>
+                                    <constraint firstAttribute="width" constant="95" id="xge-xY-FqC"/>
+                                </constraints>
+                            </imageView>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Nm-QP-oUi">
+                                <rect key="frame" x="250" y="393" width="100" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="h2c-0S-ZPl"/>
+                                    <constraint firstAttribute="width" constant="100" id="ogJ-T8-obP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="OK">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="okButtonTouchUpInside:" destination="szB-wc-Hq9" eventType="touchUpInside" id="Cdk-86-ePO"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="lH5-dt-OMD" firstAttribute="height" secondItem="3Rn-Au-76s" secondAttribute="height" id="9xi-gr-cwM"/>
+                            <constraint firstItem="0Nm-QP-oUi" firstAttribute="top" secondItem="3E5-HY-xXW" secondAttribute="bottom" constant="26" id="ERg-Cj-s6a"/>
+                            <constraint firstAttribute="centerX" secondItem="0Nm-QP-oUi" secondAttribute="centerX" id="FCx-D5-Iud"/>
+                            <constraint firstItem="alM-b2-GYX" firstAttribute="centerY" secondItem="3Rn-Au-76s" secondAttribute="bottom" multiplier="0.463908" id="Iol-RJ-GRa"/>
+                            <constraint firstItem="3E5-HY-xXW" firstAttribute="top" secondItem="alM-b2-GYX" secondAttribute="bottom" constant="20" id="K9P-Tb-8H1"/>
+                            <constraint firstAttribute="centerX" secondItem="3E5-HY-xXW" secondAttribute="centerX" id="NW6-Zx-yKb"/>
+                            <constraint firstAttribute="centerX" secondItem="lH5-dt-OMD" secondAttribute="centerX" id="OeD-fL-hZr"/>
+                            <constraint firstItem="lH5-dt-OMD" firstAttribute="width" secondItem="3Rn-Au-76s" secondAttribute="width" id="Prt-Pw-ICf"/>
+                            <constraint firstAttribute="centerY" secondItem="lH5-dt-OMD" secondAttribute="centerY" id="fLY-Rk-P95"/>
+                            <constraint firstAttribute="centerX" secondItem="alM-b2-GYX" secondAttribute="centerX" id="tWP-vg-OW3"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="label" destination="3E5-HY-xXW" id="oVV-Ln-lbP"/>
+                        <outlet property="okButton" destination="0Nm-QP-oUi" id="Uvy-7c-ciH"/>
+                        <outlet property="spinningImageView" destination="alM-b2-GYX" id="zAv-ey-zOK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6yX-F0-7mM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="576" y="401"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Background" width="320" height="568"/>
+        <image name="OvalIcon" width="100" height="100"/>
+    </resources>
+</document>

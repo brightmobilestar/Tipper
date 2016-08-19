@@ -1,0 +1,1597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tipper/Modules/TipperModule/KNCCViewController.swift"
+            timestampString = "449428077.184285"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "338"
+            endingLineNumber = "338"
+            landmarkName = "prepareForSegue(_:sender:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tipper/Modules/TipperModule/KNCCViewController.swift"
+            timestampString = "449428392.939943"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "169"
+            endingLineNumber = "169"
+            landmarkName = "cardAdded()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tipper/Modules/TipperModule/KNCCViewController.swift"
+            timestampString = "449429301.086772"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "152"
+            endingLineNumber = "152"
+            landmarkName = "tableView(_:didSelectRowAtIndexPath:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tipper/Modules/TipperModule/KNCCViewController.swift"
+            timestampString = "449429302.246673"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "160"
+            endingLineNumber = "160"
+            landmarkName = "tableView(_:didSelectRowAtIndexPath:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tipper/Singleton/KNAPIManager.swift"
+            timestampString = "450125142.759239"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "636"
+            endingLineNumber = "636"
+            landmarkName = "tipAFriend(_:amountInCents:cardId:pinCode:completed:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tipper/Modules/TipperModule/KNConfirmViewController.swift"
+            timestampString = "449573381.187326"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "164"
+            endingLineNumber = "164"
+            landmarkName = "didPasscodeSuccess(_:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tipper.KNConfirmViewController.didPasscodeSuccess (Tipper.KNConfirmViewController)(Swift.String) -&gt; ()"
+                  moduleName = "Tipper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Work/OutSourceWork/ElanceWork/JustinWork/TipperWorkRepo/Tipper/Tipper/Modules/TipperModule/KNConfirmViewController.swift"
+                  timestampString = "451275049.295135"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "164"
+                  endingLineNumber = "164"
+                  offsetFromSymbolStart = "6796">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tipper.KNConfirmViewController.(didPasscodeSuccess (Tipper.KNConfirmViewController) -&gt; (Swift.String) -&gt; ()).(closure #1)"
+                  moduleName = "Tipper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Work/OutSourceWork/ElanceWork/JustinWork/TipperWorkRepo/Tipper/Tipper/Modules/TipperModule/KNConfirmViewController.swift"
+                  timestampString = "451275049.29528"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "165"
+                  endingLineNumber = "165"
+                  offsetFromSymbolStart = "23">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tipper/Modules/PasscodeModule/KNPasscodeViewController.swift"
+            timestampString = "450642188.566181"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "404"
+            endingLineNumber = "404"
+            landmarkName = "keyboardPressNumber(_:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tipper.KNPasscodeViewController.(keyboardPressNumber (Tipper.KNPasscodeViewController) -&gt; (Swift.String) -&gt; ()).(closure #2)"
+                  moduleName = "Tipper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Work/OutSourceWork/ElanceWork/JustinWork/TipperWorkRepo/Tipper/Tipper/Modules/PasscodeModule/KNPasscodeViewController.swift"
+                  timestampString = "451275049.296146"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "404"
+                  endingLineNumber = "404"
+                  offsetFromSymbolStart = "9347">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tipper.KNPasscodeViewController.(keyboardPressNumber (Tipper.KNPasscodeViewController) -&gt; (Swift.String) -&gt; ()).(closure #2).(closure #3)"
+                  moduleName = "Tipper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Work/OutSourceWork/ElanceWork/JustinWork/TipperWorkRepo/Tipper/Tipper/Modules/PasscodeModule/KNPasscodeViewController.swift"
+                  timestampString = "451275049.296283"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "406"
+                  endingLineNumber = "406"
+                  offsetFromSymbolStart = "30">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tipper/Modules/PasscodeModule/KNPasscodeViewController.swift"
+            timestampString = "450642188.566181"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "364"
+            endingLineNumber = "364"
+            landmarkName = "keyboardPressNumber(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tipper/Modules/TipperModule/KNCCViewController.swift"
+            timestampString = "449588850.275093"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "addCardButtonPressed(_:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tipper.KNCCViewController.(addCardButtonPressed (Tipper.KNCCViewController) -&gt; (Swift.AnyObject) -&gt; ()).(closure #1)"
+                  moduleName = "Tipper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Work/OutSourceWork/ElanceWork/JustinWork/TipperWorkRepo/Tipper/Tipper/Modules/TipperModule/KNCCViewController.swift"
+                  timestampString = "451275049.29786"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "93">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tipper.KNCCViewController.(addCardButtonPressed (Tipper.KNCCViewController) -&gt; (Swift.AnyObject) -&gt; ()).(closure #1).(closure #1)"
+                  moduleName = "Tipper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Work/OutSourceWork/ElanceWork/JustinWork/TipperWorkRepo/Tipper/Tipper/Modules/TipperModule/KNCCViewController.swift"
+                  timestampString = "451275049.297995"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tipper/Modules/TipperModule/KNCCViewController.swift"
+            timestampString = "449588997.747252"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "addCardButtonPressed(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tipper/Modules/TipperModule/KNCCViewController.swift"
+            timestampString = "449760494.278453"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "addCardButtonPressed(_:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tipper.KNCCViewController.addCardButtonPressed (Tipper.KNCCViewController)(Swift.AnyObject) -&gt; ()"
+                  moduleName = "Tipper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Work/OutSourceWork/ElanceWork/JustinWork/TipperWorkRepo/Tipper/Tipper/Modules/TipperModule/KNCCViewController.swift"
+                  timestampString = "451275049.299574"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "3103">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tipper.KNCCViewController.(addCardButtonPressed (Tipper.KNCCViewController) -&gt; (Swift.AnyObject) -&gt; ()).(closure #1)"
+                  moduleName = "Tipper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Work/OutSourceWork/ElanceWork/JustinWork/TipperWorkRepo/Tipper/Tipper/Modules/TipperModule/KNCCViewController.swift"
+                  timestampString = "451275049.299795"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "93">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tipper/Singleton/KNAPIManager.swift"
+            timestampString = "450125142.759239"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "712"
+            endingLineNumber = "712"
+            landmarkName = "withdrawBalance(toCard:amount:pincode:completed:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tipper.KNAPIManager.withdrawBalance (Tipper.KNAPIManager)(toCard : Tipper.TipperCard, amount : Swift.String, pincode : Swift.String, completed : (success : Swift.Bool, responseObj : Tipper.KNAPIResponse) -&gt; ()) -&gt; ()"
+                  moduleName = "Tipper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Work/OutSourceWork/ElanceWork/JustinWork/TipperWorkRepo/Tipper/Tipper/Singleton/KNAPIManager.swift"
+                  timestampString = "451275049.300752"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "712"
+                  endingLineNumber = "712"
+                  offsetFromSymbolStart = "1307">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tipper.KNAPIManager.(withdrawBalance (Tipper.KNAPIManager) -&gt; (toCard : Tipper.TipperCard, amount : Swift.String, pincode : Swift.String, completed : (success : Swift.Bool, responseObj : Tipper.KNAPIResponse) -&gt; ()) -&gt; ()).(closure #1)"
+                  moduleName = "Tipper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Work/OutSourceWork/ElanceWork/JustinWork/TipperWorkRepo/Tipper/Tipper/Singleton/KNAPIManager.swift"
+                  timestampString = "451275049.300916"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "716"
+                  endingLineNumber = "716"
+                  offsetFromSymbolStart = "107">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tipper/Singleton/KNTipperWithdrawManager.swift"
+            timestampString = "449767724.038039"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tipper.KNTipperWithdrawManager.withdrawBalance (Tipper.KNTipperWithdrawManager)(toCard : Tipper.TipperCard, amount : Swift.String, pincode : Swift.String, completed : (success : Swift.Bool, responseObj : Tipper.KNAPIResponse) -&gt; ()) -&gt; ()"
+                  moduleName = "Tipper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Work/OutSourceWork/ElanceWork/JustinWork/TipperWorkRepo/Tipper/Tipper/Singleton/KNTipperWithdrawManager.swift"
+                  timestampString = "451275049.301852"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tipper.KNTipperWithdrawManager.(withdrawBalance (Tipper.KNTipperWithdrawManager) -&gt; (toCard : Tipper.TipperCard, amount : Swift.String, pincode : Swift.String, completed : (success : Swift.Bool, responseObj : Tipper.KNAPIResponse) -&gt; ()) -&gt; ()).(closure #1)"
+                  moduleName = "Tipper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Work/OutSourceWork/ElanceWork/JustinWork/TipperWorkRepo/Tipper/Tipper/Singleton/KNTipperWithdrawManager.swift"
+                  timestampString = "451275049.302006"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "107">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tipper/Modules/KNWithdrawConfirmViewController.swift"
+            timestampString = "450204008.469538"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "124"
+            endingLineNumber = "124"
+            landmarkName = "didPasscodeSuccess(_:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tipper.KNWithdrawConfirmViewController.didPasscodeSuccess (Tipper.KNWithdrawConfirmViewController)(Swift.String) -&gt; ()"
+                  moduleName = "Tipper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Work/OutSourceWork/ElanceWork/JustinWork/TipperWorkRepo/Tipper/Tipper/Modules/KNWithdrawConfirmViewController.swift"
+                  timestampString = "451275049.303313"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "124"
+                  endingLineNumber = "124"
+                  offsetFromSymbolStart = "3031">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tipper.KNWithdrawConfirmViewController.(didPasscodeSuccess (Tipper.KNWithdrawConfirmViewController) -&gt; (Swift.String) -&gt; ()).(closure #1) with unmangled suffix &quot;_promote0&quot;"
+                  moduleName = "Tipper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Work/OutSourceWork/ElanceWork/JustinWork/TipperWorkRepo/Tipper/Tipper/Modules/KNWithdrawConfirmViewController.swift"
+                  timestampString = "451275049.303457"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "125"
+                  endingLineNumber = "125"
+                  offsetFromSymbolStart = "103">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tipper/Singleton/KNAPIManager.swift"
+            timestampString = "450124622.166385"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "482"
+            endingLineNumber = "482"
+            landmarkName = "addCreditCard(_:cardNumber:expMonth:expYear:cvc:firstName:lastName:completed:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tipper/Singleton/KNAPIManager.swift"
+            timestampString = "450125794.927157"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "536"
+            endingLineNumber = "536"
+            landmarkName = "addDebitCard(_:cardNumber:expMonth:expYear:cvc:firstName:lastName:completed:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tipper/Singleton/KNAPIManager.swift"
+            timestampString = "450125852.112554"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "552"
+            endingLineNumber = "552"
+            landmarkName = "addDebitCard(_:cardNumber:expMonth:expYear:cvc:firstName:lastName:completed:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tipper.KNAPIManager.addDebitCard (Tipper.KNAPIManager)(Swift.String, cardNumber : Swift.String, expMonth : Swift.String, expYear : Swift.String, cvc : Swift.String, firstName : Swift.String, lastName : Swift.String, completed : (responseObj : Tipper.KNAPIResponse) -&gt; ()) -&gt; ()"
+                  moduleName = "Tipper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Work/OutSourceWork/ElanceWork/JustinWork/TipperWorkRepo/Tipper/Tipper/Singleton/KNAPIManager.swift"
+                  timestampString = "451275049.305944"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "552"
+                  endingLineNumber = "552"
+                  offsetFromSymbolStart = "2481">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tipper.KNAPIManager.(addDebitCard (Tipper.KNAPIManager) -&gt; (Swift.String, cardNumber : Swift.String, expMonth : Swift.String, expYear : Swift.String, cvc : Swift.String, firstName : Swift.String, lastName : Swift.String, completed : (responseObj : Tipper.KNAPIResponse) -&gt; ()) -&gt; ()).(closure #1)"
+                  moduleName = "Tipper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Work/OutSourceWork/ElanceWork/JustinWork/TipperWorkRepo/Tipper/Tipper/Singleton/KNAPIManager.swift"
+                  timestampString = "451275049.306112"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "553"
+                  endingLineNumber = "553"
+                  offsetFromSymbolStart = "104">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tipper/Modules/CardManagementModule/KNAddCCViewController.swift"
+            timestampString = "450126013.281009"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
+            landmarkName = "saveCreditCardPressed(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tipper/Singleton/KNTipperCardManager.swift"
+            timestampString = "450126047.506027"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "addTipperCard(_:cardNumber:expMonth:expYear:cvc:user:firstName:lastName:cardType:completed:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tipper.KNTipperCardManager.addTipperCard (Tipper.KNTipperCardManager)(Swift.String, cardNumber : Swift.String, expMonth : Swift.String, expYear : Swift.String, cvc : Swift.String, user : Tipper.KNMobileUser, firstName : Swift.String, lastName : Swift.String, cardType : Swift.String, completed : Swift.Optional&lt;(responseObj : Tipper.KNAPIResponse) -&gt; ()&gt;) -&gt; ()"
+                  moduleName = "Tipper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Work/OutSourceWork/ElanceWork/JustinWork/TipperWorkRepo/Tipper/Tipper/Singleton/KNTipperCardManager.swift"
+                  timestampString = "451275049.308022"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "1326">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tipper.KNTipperCardManager.(addTipperCard (Tipper.KNTipperCardManager) -&gt; (Swift.String, cardNumber : Swift.String, expMonth : Swift.String, expYear : Swift.String, cvc : Swift.String, user : Tipper.KNMobileUser, firstName : Swift.String, lastName : Swift.String, cardType : Swift.String, completed : Swift.Optional&lt;(responseObj : Tipper.KNAPIResponse) -&gt; ()&gt;) -&gt; ()).(closure #2)"
+                  moduleName = "Tipper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Work/OutSourceWork/ElanceWork/JustinWork/TipperWorkRepo/Tipper/Tipper/Singleton/KNTipperCardManager.swift"
+                  timestampString = "451275049.308195"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "120">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tipper/Singleton/KNTipperCardManager.swift"
+            timestampString = "450126207.797864"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "addTipperCard(_:cardNumber:expMonth:expYear:cvc:user:firstName:lastName:cardType:completed:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tipper/Modules/CardManagementModule/KNAddCCViewController.swift"
+            timestampString = "450126985.204146"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "102"
+            endingLineNumber = "102"
+            landmarkName = "saveCreditCardPressed(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tipper/Modules/ProfileModule/KNEditProfileViewController.swift"
+            timestampString = "450631620.960225"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "295"
+            endingLineNumber = "295"
+            landmarkName = "sendRequest()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tipper/Modules/ProfileModule/KNEditProfileViewController.swift"
+            timestampString = "450631620.960225"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "345"
+            endingLineNumber = "345"
+            landmarkName = "sendRequest()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tipper/Singleton/KNCommunicationsManager.swift"
+            timestampString = "450182381.300486"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "postAndReturnDictionaryWithoutParameters(_:postCompleted:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tipper/Modules/LoginModule/KNLoginViewController.swift"
+            timestampString = "450184530.963335"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "249"
+            endingLineNumber = "249">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tipper/Modules/LoginModule/KNLoginViewController.swift"
+            timestampString = "450184536.150359"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "268"
+            endingLineNumber = "268">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tipper/Modules/LoginModule/KNLoginViewController.swift"
+            timestampString = "450184540.115443"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "275"
+            endingLineNumber = "275">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tipper/Modules/ProfileModule/KNEditProfileViewController.swift"
+            timestampString = "450631620.960225"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "281"
+            endingLineNumber = "281"
+            landmarkName = "sendRequest()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tipper/Modules/ProfileModule/KNEditProfileViewController.swift"
+            timestampString = "450631620.960225"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "277"
+            endingLineNumber = "277"
+            landmarkName = "sendRequest()"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tipper.KNEditProfileViewController.(sendRequest (Tipper.KNEditProfileViewController) -&gt; () -&gt; ()).(closure #1)"
+                  moduleName = "Tipper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Work/OutSourceWork/ElanceWork/JustinWork/TipperWorkRepo/Tipper/Tipper/Modules/ProfileModule/KNEditProfileViewController.swift"
+                  timestampString = "451275049.315463"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "277"
+                  endingLineNumber = "277"
+                  offsetFromSymbolStart = "16054">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tipper.KNEditProfileViewController.(sendRequest (Tipper.KNEditProfileViewController) -&gt; () -&gt; ()).(closure #1).(closure #1)"
+                  moduleName = "Tipper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Work/OutSourceWork/ElanceWork/JustinWork/TipperWorkRepo/Tipper/Tipper/Modules/ProfileModule/KNEditProfileViewController.swift"
+                  timestampString = "451275049.315647"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "279"
+                  endingLineNumber = "279"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tipper/Singleton/KNTipperCardManager.swift"
+            timestampString = "450205080.477608"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "addTipperCard(_:cardNumber:expMonth:expYear:cvc:user:firstName:lastName:cardType:completed:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tipper.KNTipperCardManager.addTipperCard (Tipper.KNTipperCardManager)(Swift.String, cardNumber : Swift.String, expMonth : Swift.String, expYear : Swift.String, cvc : Swift.String, user : Tipper.KNMobileUser, firstName : Swift.String, lastName : Swift.String, cardType : Swift.String, completed : Swift.Optional&lt;(responseObj : Tipper.KNAPIResponse) -&gt; ()&gt;) -&gt; ()"
+                  moduleName = "Tipper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Work/OutSourceWork/ElanceWork/JustinWork/TipperWorkRepo/Tipper/Tipper/Singleton/KNTipperCardManager.swift"
+                  timestampString = "451275049.316543"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "776">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tipper.KNTipperCardManager.(addTipperCard (Tipper.KNTipperCardManager) -&gt; (Swift.String, cardNumber : Swift.String, expMonth : Swift.String, expYear : Swift.String, cvc : Swift.String, user : Tipper.KNMobileUser, firstName : Swift.String, lastName : Swift.String, cardType : Swift.String, completed : Swift.Optional&lt;(responseObj : Tipper.KNAPIResponse) -&gt; ()&gt;) -&gt; ()).(closure #1)"
+                  moduleName = "Tipper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Work/OutSourceWork/ElanceWork/JustinWork/TipperWorkRepo/Tipper/Tipper/Singleton/KNTipperCardManager.swift"
+                  timestampString = "451275049.316706"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "120">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tipper/Modules/PasscodeModule/KNPasscodeViewController.swift"
+            timestampString = "450642188.566181"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "528"
+            endingLineNumber = "528"
+            landmarkName = "showWithdrawConfirmation()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tipper/Modules/KNWithdrawChooseCardViewController.swift"
+            timestampString = "450212968.25492"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "233"
+            endingLineNumber = "233"
+            landmarkName = "didEditProfileSuccess(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tipper/Modules/ProfileModule/KNEditProfileViewController.swift"
+            timestampString = "450631620.960225"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "363"
+            endingLineNumber = "363"
+            landmarkName = "sendRequest()"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tipper.KNEditProfileViewController.(sendRequest (Tipper.KNEditProfileViewController) -&gt; () -&gt; ()).(closure #1).(closure #3)"
+                  moduleName = "Tipper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Work/OutSourceWork/ElanceWork/JustinWork/TipperWorkRepo/Tipper/Tipper/Modules/ProfileModule/KNEditProfileViewController.swift"
+                  timestampString = "451275049.318895"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "363"
+                  endingLineNumber = "363"
+                  offsetFromSymbolStart = "603">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tipper.KNEditProfileViewController.(sendRequest (Tipper.KNEditProfileViewController) -&gt; () -&gt; ()).(closure #1).(closure #3).(closure #2)"
+                  moduleName = "Tipper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Work/OutSourceWork/ElanceWork/JustinWork/TipperWorkRepo/Tipper/Tipper/Modules/ProfileModule/KNEditProfileViewController.swift"
+                  timestampString = "451275049.319053"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "366"
+                  endingLineNumber = "366"
+                  offsetFromSymbolStart = "22">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tipper/Modules/KNWithdrawConfirmViewController.swift"
+            timestampString = "450219307.607857"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
+            landmarkName = "didPasscodeSuccess(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tipper/Modules/PasscodeModule/KNPasscodeViewController.swift"
+            timestampString = "450642188.566181"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "204"
+            endingLineNumber = "204"
+            landmarkName = "keyboardPressNumber(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tipper/Modules/PasscodeModule/KNPasscodeViewController.swift"
+            timestampString = "450642188.566181"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "305"
+            endingLineNumber = "305"
+            landmarkName = "keyboardPressNumber(_:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tipper.KNPasscodeViewController.(keyboardPressNumber (Tipper.KNPasscodeViewController) -&gt; (Swift.String) -&gt; ()).(closure #2)"
+                  moduleName = "Tipper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Work/OutSourceWork/ElanceWork/JustinWork/TipperWorkRepo/Tipper/Tipper/Modules/PasscodeModule/KNPasscodeViewController.swift"
+                  timestampString = "451275049.32165"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "305"
+                  endingLineNumber = "305"
+                  offsetFromSymbolStart = "7740">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tipper.KNPasscodeViewController.(keyboardPressNumber (Tipper.KNPasscodeViewController) -&gt; (Swift.String) -&gt; ()).(closure #2).(closure #2)"
+                  moduleName = "Tipper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Work/OutSourceWork/ElanceWork/JustinWork/TipperWorkRepo/Tipper/Tipper/Modules/PasscodeModule/KNPasscodeViewController.swift"
+                  timestampString = "451275049.321885"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "307"
+                  endingLineNumber = "307"
+                  offsetFromSymbolStart = "96">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tipper/Modules/PasscodeModule/KNPasscodeViewController.swift"
+            timestampString = "450642188.566181"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "309"
+            endingLineNumber = "309"
+            landmarkName = "keyboardPressNumber(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tipper/Singleton/KNAPIManager.swift"
+            timestampString = "450237629.470141"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "728"
+            endingLineNumber = "728"
+            landmarkName = "withdrawBalanceToPaypal(amount:pincode:completed:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tipper.KNAPIManager.withdrawBalanceToPaypal (Tipper.KNAPIManager)(amount : Swift.String, pincode : Swift.String, completed : (success : Swift.Bool, responseObj : Tipper.KNAPIResponse) -&gt; ()) -&gt; ()"
+                  moduleName = "Tipper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Work/OutSourceWork/ElanceWork/JustinWork/TipperWorkRepo/Tipper/Tipper/Singleton/KNAPIManager.swift"
+                  timestampString = "451275049.323654"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "728"
+                  endingLineNumber = "728"
+                  offsetFromSymbolStart = "687">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tipper.KNAPIManager.(withdrawBalanceToPaypal (Tipper.KNAPIManager) -&gt; (amount : Swift.String, pincode : Swift.String, completed : (success : Swift.Bool, responseObj : Tipper.KNAPIResponse) -&gt; ()) -&gt; ()).(closure #1)"
+                  moduleName = "Tipper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Work/OutSourceWork/ElanceWork/JustinWork/TipperWorkRepo/Tipper/Tipper/Singleton/KNAPIManager.swift"
+                  timestampString = "451275049.323794"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "732"
+                  endingLineNumber = "732"
+                  offsetFromSymbolStart = "107">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tipper/Singleton/KNTipperTipManager.swift"
+            timestampString = "450238624.881502"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "tipAFriend(_:amountInCents:cardId:pinCode:completed:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tipper.KNTipperTipManager.tipAFriend (Tipper.KNTipperTipManager)(Swift.String, amountInCents : Swift.String, cardId : Swift.String, pinCode : Swift.String, completed : (success : Swift.Bool, errors : Swift.Optional&lt;Swift.Array&lt;Tipper.KNAPIResponse.APIError&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Tipper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Work/OutSourceWork/ElanceWork/JustinWork/TipperWorkRepo/Tipper/Tipper/Singleton/KNTipperTipManager.swift"
+                  timestampString = "451275049.324646"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "149">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tipper.KNTipperTipManager.(tipAFriend (Tipper.KNTipperTipManager) -&gt; (Swift.String, amountInCents : Swift.String, cardId : Swift.String, pinCode : Swift.String, completed : (success : Swift.Bool, errors : Swift.Optional&lt;Swift.Array&lt;Tipper.KNAPIResponse.APIError&gt;&gt;) -&gt; ()) -&gt; ()).(closure #1)"
+                  moduleName = "Tipper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Work/OutSourceWork/ElanceWork/JustinWork/TipperWorkRepo/Tipper/Tipper/Singleton/KNTipperTipManager.swift"
+                  timestampString = "451275049.324788"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "99">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tipper/Singleton/KNTipperTipManager.swift"
+            timestampString = "450238629.733001"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "tipAnUnknown(_:amountInCents:cardId:pinCode:completed:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tipper.KNTipperTipManager.tipAnUnknown (Tipper.KNTipperTipManager)(Swift.String, amountInCents : Swift.String, cardId : Swift.String, pinCode : Swift.String, completed : (success : Swift.Bool, errors : Swift.Optional&lt;Swift.Array&lt;Tipper.KNAPIResponse.APIError&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Tipper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Work/OutSourceWork/ElanceWork/JustinWork/TipperWorkRepo/Tipper/Tipper/Singleton/KNTipperTipManager.swift"
+                  timestampString = "451275049.325694"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "149">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tipper.KNTipperTipManager.(tipAnUnknown (Tipper.KNTipperTipManager) -&gt; (Swift.String, amountInCents : Swift.String, cardId : Swift.String, pinCode : Swift.String, completed : (success : Swift.Bool, errors : Swift.Optional&lt;Swift.Array&lt;Tipper.KNAPIResponse.APIError&gt;&gt;) -&gt; ()) -&gt; ()).(closure #1)"
+                  moduleName = "Tipper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Work/OutSourceWork/ElanceWork/JustinWork/TipperWorkRepo/Tipper/Tipper/Singleton/KNTipperTipManager.swift"
+                  timestampString = "451275049.325825"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "99">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tipper/Singleton/KNAPIManager.swift"
+            timestampString = "450238764.272148"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "638"
+            endingLineNumber = "638"
+            landmarkName = "tipAFriend(_:amountInCents:cardId:pinCode:completed:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tipper.KNAPIManager.tipAFriend (Tipper.KNAPIManager)(Swift.String, amountInCents : Swift.String, cardId : Swift.String, pinCode : Swift.String, completed : (success : Swift.Bool, responseObj : Tipper.KNAPIResponse) -&gt; ()) -&gt; ()"
+                  moduleName = "Tipper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Work/OutSourceWork/ElanceWork/JustinWork/TipperWorkRepo/Tipper/Tipper/Singleton/KNAPIManager.swift"
+                  timestampString = "451275049.327002"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "638"
+                  endingLineNumber = "638"
+                  offsetFromSymbolStart = "1017">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tipper.KNAPIManager.(tipAFriend (Tipper.KNAPIManager) -&gt; (Swift.String, amountInCents : Swift.String, cardId : Swift.String, pinCode : Swift.String, completed : (success : Swift.Bool, responseObj : Tipper.KNAPIResponse) -&gt; ()) -&gt; ()).(closure #1)"
+                  moduleName = "Tipper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Work/OutSourceWork/ElanceWork/JustinWork/TipperWorkRepo/Tipper/Tipper/Singleton/KNAPIManager.swift"
+                  timestampString = "451275049.327181"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "639"
+                  endingLineNumber = "639"
+                  offsetFromSymbolStart = "107">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tipper/Singleton/KNTipperCardManager.swift"
+            timestampString = "450246512.290019"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "deleteTipperCard(_:completed:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tipper.KNTipperCardManager.deleteTipperCard (Tipper.KNTipperCardManager)(Tipper.TipperCard, completed : (success : Swift.Bool, errorMessage : Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Tipper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Work/OutSourceWork/ElanceWork/JustinWork/TipperWorkRepo/Tipper/Tipper/Singleton/KNTipperCardManager.swift"
+                  timestampString = "451275049.328391"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "100"
+                  endingLineNumber = "100"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tipper.KNTipperCardManager.(deleteTipperCard (Tipper.KNTipperCardManager) -&gt; (Tipper.TipperCard, completed : (success : Swift.Bool, errorMessage : Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()).(closure #1)"
+                  moduleName = "Tipper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Work/OutSourceWork/ElanceWork/JustinWork/TipperWorkRepo/Tipper/Tipper/Singleton/KNTipperCardManager.swift"
+                  timestampString = "451275049.328604"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "115">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tipper/Singleton/KNAPIManager.swift"
+            timestampString = "450246526.547784"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "525"
+            endingLineNumber = "525"
+            landmarkName = "deleteTipperCard(_:completed:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tipper.KNAPIManager.deleteTipperCard (Tipper.KNAPIManager)(Swift.String, completed : (success : Swift.Bool, responseObj : Tipper.KNAPIResponse) -&gt; ()) -&gt; ()"
+                  moduleName = "Tipper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Work/OutSourceWork/ElanceWork/JustinWork/TipperWorkRepo/Tipper/Tipper/Singleton/KNAPIManager.swift"
+                  timestampString = "451275049.329633"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "525"
+                  endingLineNumber = "525"
+                  offsetFromSymbolStart = "403">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tipper.KNAPIManager.(deleteTipperCard (Tipper.KNAPIManager) -&gt; (Swift.String, completed : (success : Swift.Bool, responseObj : Tipper.KNAPIResponse) -&gt; ()) -&gt; ()).(closure #1)"
+                  moduleName = "Tipper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Work/OutSourceWork/ElanceWork/JustinWork/TipperWorkRepo/Tipper/Tipper/Singleton/KNAPIManager.swift"
+                  timestampString = "451275049.329886"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "526"
+                  endingLineNumber = "526"
+                  offsetFromSymbolStart = "107">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tipper/Modules/CardManagementModule/KNDeleteCCViewController.swift"
+            timestampString = "450246699.343699"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tipper/Singleton/KNTipperCardManager.swift"
+            timestampString = "450255599.264938"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
+            landmarkName = "deleteTipperCard(_:completed:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tipper/Singleton/KNTipperCardManager.swift"
+            timestampString = "450255766.094557"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
+            landmarkName = "deleteTipperCard(_:completed:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tipper/Modules/SettingsModule/KNSettingsViewController.swift"
+            timestampString = "450611540.574986"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "278"
+            endingLineNumber = "278"
+            landmarkName = "backSplashScreen()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tipper/Modules/SettingsModule/KNSettingsViewController.swift"
+            timestampString = "450611567.560529"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "245"
+            endingLineNumber = "245"
+            landmarkName = "tableView(_:didSelectRowAtIndexPath:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tipper.KNSettingsViewController.(tableView (Tipper.KNSettingsViewController) -&gt; (ObjectiveC.UITableView, didSelectRowAtIndexPath : ObjectiveC.NSIndexPath) -&gt; ()).(closure #2)"
+                  moduleName = "Tipper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Work/OutSourceWork/ElanceWork/JustinWork/TipperWorkRepo/Tipper/Tipper/Modules/SettingsModule/KNSettingsViewController.swift"
+                  timestampString = "451275049.333805"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "245"
+                  endingLineNumber = "245"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tipper.KNSettingsViewController.(tableView (Tipper.KNSettingsViewController) -&gt; (ObjectiveC.UITableView, didSelectRowAtIndexPath : ObjectiveC.NSIndexPath) -&gt; ()).(closure #2).(closure #1)"
+                  moduleName = "Tipper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Work/OutSourceWork/ElanceWork/JustinWork/TipperWorkRepo/Tipper/Tipper/Modules/SettingsModule/KNSettingsViewController.swift"
+                  timestampString = "451275049.333957"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "247"
+                  endingLineNumber = "247"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tipper/KNAppDelegate.swift"
+            timestampString = "450628707.338762"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "application(_:openURL:sourceApplication:annotation:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tipper/Utilities/KNCreditCardView/KNCreditCardView.swift"
+            timestampString = "450635673.970574"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "452"
+            endingLineNumber = "452"
+            landmarkName = "cardCVCShouldChangeCharactersInTextField(_:range:replacementString:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tipper/Singleton/KNCommunicationsManager.swift"
+            timestampString = "450637294.399471"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "103"
+            endingLineNumber = "103"
+            landmarkName = "postAndReturnDictionary(_:url:postCompleted:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tipper/Modules/PasscodeModule/KNPasscodeViewController.swift"
+            timestampString = "450643256.453315"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "updateViewConstraints()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tipper/Singleton/KNCommunicationsManager.swift"
+            timestampString = "450645298.293179"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
+            landmarkName = "postAndReturnDictionary(_:url:postCompleted:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tipper.KNCommunicationsManager.postAndReturnDictionary (Tipper.KNCommunicationsManager)(Swift.Dictionary&lt;Swift.String, Swift.AnyObject&gt;, url : Swift.String, postCompleted : (success : Swift.Bool, apiResponse : Tipper.KNAPIResponse) -&gt; ()) -&gt; ()"
+                  moduleName = "Tipper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Work/OutSourceWork/ElanceWork/JustinWork/TipperWorkRepo/Tipper/Tipper/Singleton/KNCommunicationsManager.swift"
+                  timestampString = "450903374.11801"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "94"
+                  endingLineNumber = "94"
+                  offsetFromSymbolStart = "1800">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tipper.KNCommunicationsManager.(postAndReturnDictionary (Tipper.KNCommunicationsManager) -&gt; (Swift.Dictionary&lt;Swift.String, Swift.AnyObject&gt;, url : Swift.String, postCompleted : (success : Swift.Bool, apiResponse : Tipper.KNAPIResponse) -&gt; ()) -&gt; ()).(closure #1)"
+                  moduleName = "Tipper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Work/OutSourceWork/ElanceWork/JustinWork/TipperWorkRepo/Tipper/Tipper/Singleton/KNCommunicationsManager.swift"
+                  timestampString = "450903374.118142"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tipper/Modules/SettingsModule/KNCCHistoryViewController.swift"
+            timestampString = "450645345.15088"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tipper/Utilities/KNActivityViewWrapper.swift"
+            timestampString = "450903683.658871"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "removeActivityView(animateOut:completionHandler:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tipper/Singleton/KNAddressBookManager.swift"
+            timestampString = "451273601.409586"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "161"
+            endingLineNumber = "161"
+            landmarkName = "fetchContactsFromAddressBook()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tipper/Singleton/KNAddressBookManager.swift"
+            timestampString = "451274484.785112"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "268"
+            endingLineNumber = "268"
+            landmarkName = "readEmailsForPerson(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tipper/Singleton/KNAddressBookManager.swift"
+            timestampString = "451274486.796228"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "284"
+            endingLineNumber = "284"
+            landmarkName = "readPhoneNumbersForPerson(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

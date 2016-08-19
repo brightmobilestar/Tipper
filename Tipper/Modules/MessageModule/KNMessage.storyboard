@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Zgk-zC-U6L">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--Message View Controller-->
+        <scene sceneID="O4X-Oc-9G1">
+            <objects>
+                <viewController storyboardIdentifier="kMessageStoryboarId" id="Zgk-zC-U6L" customClass="KNMessageViewController" customModule="Tipper" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6aU-qZ-pL7"/>
+                        <viewControllerLayoutGuide type="bottom" id="DcZ-eY-MrA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pPe-Wd-73S">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fOr-Ga-hT2">
+                                <rect key="frame" x="250" y="205" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="1Vp-Rx-Ysk"/>
+                                    <constraint firstAttribute="width" secondItem="fOr-Ga-hT2" secondAttribute="height" multiplier="1:1" id="bWS-y3-mOl"/>
+                                    <constraint firstAttribute="height" constant="150" id="z4d-dV-QPr"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="z4d-dV-QPr"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="200" translatesAutoresizingMaskIntoConstraints="NO" id="L6T-2e-bwR">
+                                <rect key="frame" x="140" y="308" width="322" height="58"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="67" id="pbU-kk-AIQ">
+                                        <variation key="heightClass=regular-widthClass=compact" constant="69.5"/>
+                                    </constraint>
+                                    <constraint firstAttribute="width" secondItem="L6T-2e-bwR" secondAttribute="height" multiplier="321:58" id="zFn-aJ-mBQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="18"/>
+                                <color key="textColor" red="0.97254901959999995" green="0.97254901959999995" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="pbU-kk-AIQ"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="L6T-2e-bwR" secondAttribute="centerY" constant="-136.5" id="25u-sf-fiv">
+                                <variation key="heightClass=regular-widthClass=compact" constant="-79.75"/>
+                            </constraint>
+                            <constraint firstAttribute="centerY" secondItem="fOr-Ga-hT2" secondAttribute="centerY" constant="45" id="Kx1-eT-Ybj"/>
+                            <constraint firstItem="L6T-2e-bwR" firstAttribute="top" secondItem="fOr-Ga-hT2" secondAttribute="bottom" constant="3" id="LrH-aA-wbV"/>
+                            <constraint firstAttribute="centerX" secondItem="fOr-Ga-hT2" secondAttribute="centerX" id="S11-O6-K2B"/>
+                            <constraint firstAttribute="centerX" secondItem="L6T-2e-bwR" secondAttribute="centerX" id="Vs7-wY-3jj"/>
+                            <constraint firstAttribute="centerY" secondItem="fOr-Ga-hT2" secondAttribute="centerY" id="fcN-Ks-cpN">
+                                <variation key="heightClass=regular-widthClass=compact" constant="34"/>
+                            </constraint>
+                            <constraint firstItem="L6T-2e-bwR" firstAttribute="top" secondItem="fOr-Ga-hT2" secondAttribute="bottom" constant="3" id="ix9-M2-Sle"/>
+                            <constraint firstAttribute="centerY" secondItem="L6T-2e-bwR" secondAttribute="centerY" constant="-37" id="vAh-Cn-Hl6"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="fcN-Ks-cpN"/>
+                                <exclude reference="25u-sf-fiv"/>
+                                <exclude reference="LrH-aA-wbV"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="imgvIcon" destination="fOr-Ga-hT2" id="2Vf-QX-KSV"/>
+                        <outlet property="lbDescription" destination="L6T-2e-bwR" id="FZe-kT-Z60"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kVJ-xi-bdQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="244" y="250"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="9bc-DD-uyD">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Edit Profile-->
+        <scene sceneID="wEA-us-1Aj">
+            <objects>
+                <viewController storyboardIdentifier="kEditProfileStoryboardId" id="eVC-Xv-rvw" customClass="KNEditProfileViewController" customModule="Tipper" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fg4-OI-3OW"/>
+                        <viewControllerLayoutGuide type="bottom" id="bHR-C2-0QE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3HW-BY-Ugt">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2aW-hu-bF1">
+                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SNU-DC-DdC" customClass="KNProfileAvatarView" customModule="Tipper" customModuleProvider="target">
+                                        <rect key="frame" x="230" y="31" width="140" height="140"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bVG-D5-Umt" customClass="KNImageButton" customModule="Tipper" customModuleProvider="target">
+                                                <rect key="frame" x="25" y="8" width="90" height="90"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="90" id="6vd-dn-b3R"/>
+                                                    <constraint firstAttribute="height" constant="90" id="dUP-Io-o9f"/>
+                                                </constraints>
+                                                <state key="normal" backgroundImage="AddPhoto">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="imageButtonTouchCancel:" destination="eVC-Xv-rvw" eventType="touchCancel" id="yhc-j3-QPs"/>
+                                                    <action selector="imageButtonTouchDown:" destination="eVC-Xv-rvw" eventType="touchDown" id="O9y-uH-qSx"/>
+                                                    <action selector="imageButtonTouchDragInside:" destination="eVC-Xv-rvw" eventType="touchDragInside" id="18m-sR-N3p"/>
+                                                    <action selector="imageButtonTouchDragOutside:" destination="eVC-Xv-rvw" eventType="touchDragOutside" id="Tbb-RP-VgU"/>
+                                                    <action selector="imageButtonTouchUpInside:" destination="eVC-Xv-rvw" eventType="touchUpInside" id="eMU-Pq-u09"/>
+                                                    <action selector="imageButtonTouchUpOutside:" destination="eVC-Xv-rvw" eventType="touchUpOutside" id="i9c-WG-8Xl"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vXu-iI-ZQN">
+                                                <rect key="frame" x="8" y="97" width="124" height="36"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <size key="titleShadowOffset" width="0.0" height="1"/>
+                                                <state key="normal" title="Change Photo">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="titleShadowColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="0.5" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="vXu-iI-ZQN" firstAttribute="leading" secondItem="SNU-DC-DdC" secondAttribute="leadingMargin" id="2BI-qQ-GHa"/>
+                                            <constraint firstItem="vXu-iI-ZQN" firstAttribute="leading" secondItem="SNU-DC-DdC" secondAttribute="leading" constant="8" id="Bow-vX-tAE"/>
+                                            <constraint firstAttribute="width" secondItem="SNU-DC-DdC" secondAttribute="height" multiplier="1:1" id="V3R-kT-BMt"/>
+                                            <constraint firstAttribute="bottom" secondItem="vXu-iI-ZQN" secondAttribute="bottom" constant="7" id="Y6V-Pd-Uqw"/>
+                                            <constraint firstItem="bVG-D5-Umt" firstAttribute="top" secondItem="SNU-DC-DdC" secondAttribute="top" constant="8" id="jLQ-Hp-soM"/>
+                                            <constraint firstItem="vXu-iI-ZQN" firstAttribute="trailing" secondItem="SNU-DC-DdC" secondAttribute="trailingMargin" id="p5y-Ps-HHx"/>
+                                            <constraint firstItem="vXu-iI-ZQN" firstAttribute="top" secondItem="SNU-DC-DdC" secondAttribute="top" constant="97" id="qh8-oQ-dkW"/>
+                                            <constraint firstAttribute="height" constant="140" id="sB8-Aa-oTp"/>
+                                            <constraint firstAttribute="centerX" secondItem="bVG-D5-Umt" secondAttribute="centerX" id="vj5-qq-w21"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="profileAvatarImageButton" destination="bVG-D5-Umt" id="W7H-gX-3O4"/>
+                                            <outlet property="profileFullNameButton" destination="vXu-iI-ZQN" id="mwt-rF-jhJ"/>
+                                        </connections>
+                                    </view>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Public Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="z8J-00-H7t" customClass="KNTextField" customModule="Tipper" customModuleProvider="target">
+                                        <rect key="frame" x="15" y="175" width="570" height="50"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="gwK-cl-SSg"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="eVC-Xv-rvw" id="2Wr-kh-oUc"/>
+                                        </connections>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter your email" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="ZkZ-AH-SbP" customClass="KNTextField" customModule="Tipper" customModuleProvider="target">
+                                        <rect key="frame" x="15" y="240" width="570" height="50"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="ORt-yR-x5B"/>
+                                        </constraints>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="emailAddress" returnKeyType="next"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="eVC-Xv-rvw" id="jbP-MF-7EQ"/>
+                                        </connections>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="New Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="h4P-GU-NSw" customClass="KNTextField" customModule="Tipper" customModuleProvider="target">
+                                        <rect key="frame" x="15" y="305" width="570" height="50"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="iaY-JK-tDc"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="eVC-Xv-rvw" id="dJu-Tc-NOh"/>
+                                        </connections>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Repeat Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yo7-C0-mjf" customClass="KNTextField" customModule="Tipper" customModuleProvider="target">
+                                        <rect key="frame" x="15" y="370" width="570" height="50"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="eaS-bm-pbd"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="eVC-Xv-rvw" id="mkm-rR-UlH"/>
+                                        </connections>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter your Paypal email" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="FyD-ce-8IP" customClass="KNTextField" customModule="Tipper" customModuleProvider="target">
+                                        <rect key="frame" x="15" y="435" width="570" height="50"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="YJH-9r-PUZ"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="cwd-jF-kHd"/>
+                                        </constraints>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="emailAddress" returnKeyType="next"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="eVC-Xv-rvw" id="whu-83-fRJ"/>
+                                        </connections>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="ZkZ-AH-SbP" firstAttribute="top" secondItem="z8J-00-H7t" secondAttribute="bottom" constant="15" id="2f6-1T-qgt"/>
+                                    <constraint firstAttribute="centerX" secondItem="z8J-00-H7t" secondAttribute="centerX" id="8jd-6H-2GX"/>
+                                    <constraint firstAttribute="centerX" secondItem="FyD-ce-8IP" secondAttribute="centerX" id="CjC-9d-dzn"/>
+                                    <constraint firstItem="h4P-GU-NSw" firstAttribute="top" secondItem="ZkZ-AH-SbP" secondAttribute="bottom" constant="15" id="Ckd-ht-Yd4"/>
+                                    <constraint firstItem="ZkZ-AH-SbP" firstAttribute="leading" secondItem="2aW-hu-bF1" secondAttribute="leading" constant="15" id="FfX-bu-X0B"/>
+                                    <constraint firstAttribute="centerX" secondItem="ZkZ-AH-SbP" secondAttribute="centerX" id="FjY-hN-t0z"/>
+                                    <constraint firstAttribute="centerX" secondItem="h4P-GU-NSw" secondAttribute="centerX" id="IVz-J0-g1F"/>
+                                    <constraint firstItem="FyD-ce-8IP" firstAttribute="leading" secondItem="2aW-hu-bF1" secondAttribute="leading" constant="15" id="IWb-Qg-AMS"/>
+                                    <constraint firstAttribute="trailing" secondItem="h4P-GU-NSw" secondAttribute="trailing" constant="15" id="QsQ-5L-8T3"/>
+                                    <constraint firstItem="z8J-00-H7t" firstAttribute="top" secondItem="SNU-DC-DdC" secondAttribute="bottom" constant="4" id="U2K-9q-j7Z"/>
+                                    <constraint firstAttribute="trailing" secondItem="yo7-C0-mjf" secondAttribute="trailing" constant="15" id="UlC-JY-vo5"/>
+                                    <constraint firstItem="z8J-00-H7t" firstAttribute="leading" secondItem="2aW-hu-bF1" secondAttribute="leading" constant="15" id="WdL-o8-Tuo"/>
+                                    <constraint firstAttribute="bottom" secondItem="FyD-ce-8IP" secondAttribute="bottom" constant="51" id="WfY-Nq-YKf"/>
+                                    <constraint firstAttribute="trailing" secondItem="z8J-00-H7t" secondAttribute="trailing" constant="15" id="XFU-tu-sm1"/>
+                                    <constraint firstItem="FyD-ce-8IP" firstAttribute="top" secondItem="yo7-C0-mjf" secondAttribute="bottom" constant="15" id="XNw-bc-csS"/>
+                                    <constraint firstItem="yo7-C0-mjf" firstAttribute="leading" secondItem="2aW-hu-bF1" secondAttribute="leading" constant="15" id="aOm-gq-jC3"/>
+                                    <constraint firstItem="yo7-C0-mjf" firstAttribute="top" secondItem="h4P-GU-NSw" secondAttribute="bottom" constant="15" id="eWW-rG-pji"/>
+                                    <constraint firstAttribute="trailing" secondItem="ZkZ-AH-SbP" secondAttribute="trailing" constant="15" id="gOx-OR-uCs"/>
+                                    <constraint firstAttribute="trailing" secondItem="FyD-ce-8IP" secondAttribute="trailing" constant="15" id="gU8-C5-voo"/>
+                                    <constraint firstItem="h4P-GU-NSw" firstAttribute="leading" secondItem="2aW-hu-bF1" secondAttribute="leading" constant="15" id="jZa-Xq-RjC"/>
+                                    <constraint firstItem="SNU-DC-DdC" firstAttribute="top" secondItem="2aW-hu-bF1" secondAttribute="top" constant="31" id="mYa-oy-UmY"/>
+                                    <constraint firstAttribute="centerX" secondItem="yo7-C0-mjf" secondAttribute="centerX" id="uW8-ca-baJ"/>
+                                    <constraint firstAttribute="centerX" secondItem="SNU-DC-DdC" secondAttribute="centerX" id="uq3-K9-ZRb"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="2aW-hu-bF1" secondAttribute="trailing" id="XS9-fa-aMR"/>
+                            <constraint firstItem="2aW-hu-bF1" firstAttribute="leading" secondItem="3HW-BY-Ugt" secondAttribute="leading" id="azs-Zm-M1d"/>
+                            <constraint firstItem="2aW-hu-bF1" firstAttribute="bottom" secondItem="bHR-C2-0QE" secondAttribute="top" id="qQa-fh-qh1"/>
+                            <constraint firstItem="2aW-hu-bF1" firstAttribute="top" secondItem="fg4-OI-3OW" secondAttribute="bottom" id="wSJ-nc-row"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Edit Profile" id="b8a-PL-gdv">
+                        <barButtonItem key="leftBarButtonItem" image="Back" id="nbc-hg-oO5">
+                            <inset key="imageInsets" minX="-5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <action selector="goToSettingScreen:" destination="eVC-Xv-rvw" id="swP-93-NUa"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Save" id="t2F-tb-yLG">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <action selector="saveProfile:" destination="eVC-Xv-rvw" id="3Ee-qJ-x6A"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="btnBack" destination="nbc-hg-oO5" id="F6c-Mt-Z76"/>
+                        <outlet property="btnSave" destination="t2F-tb-yLG" id="C4G-Cl-G9Z"/>
+                        <outlet property="changePhotoButton" destination="vXu-iI-ZQN" id="Df8-MN-2ud"/>
+                        <outlet property="imageButton" destination="bVG-D5-Umt" id="HwK-zm-oT7"/>
+                        <outlet property="scrvWrapView" destination="2aW-hu-bF1" id="wt0-xs-Frp"/>
+                        <outlet property="tfConfirmPassword" destination="yo7-C0-mjf" id="wpl-SQ-y3F"/>
+                        <outlet property="tfEmail" destination="ZkZ-AH-SbP" id="RkB-Wx-H2S"/>
+                        <outlet property="tfPassword" destination="h4P-GU-NSw" id="SgS-k0-wbL"/>
+                        <outlet property="tfPaypalEmail" destination="FyD-ce-8IP" id="Lw3-3F-gse"/>
+                        <outlet property="tfUserName" destination="z8J-00-H7t" id="LKd-Uv-af2"/>
+                        <outlet property="vProfileAvatar" destination="SNU-DC-DdC" id="Emg-2t-X1a"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dGg-Qg-wLh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="537" y="220.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="hjB-nS-LOd">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9bc-DD-uyD" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="2xx-8Z-Ry8">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="eVC-Xv-rvw" kind="relationship" relationship="rootViewController" id="l3g-kW-10p"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xsu-lz-a5g" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-232.5" y="220.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="AddPhoto" width="175" height="160"/>
+        <image name="Back" width="20" height="20"/>
+    </resources>
+</document>

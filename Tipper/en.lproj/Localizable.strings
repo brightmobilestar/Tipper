@@ -1,0 +1,172 @@
+/*
+  Localizable.strings
+  Tipper
+
+  Created by Jay N on 12/2/14.
+  Copyright (c) 2014 Knodeit.com. All rights reserved.
+*/
+
+//MARK: Common
+"ok"                        = "Ok";
+"yes"                       = "Yes";
+"no"                        = "No";
+"cancel"                    = "Cancel";
+"close"                     = "Close";
+"notice"                    = "Notice";
+"error"                     = "Error";
+"next"                      = "Next";
+"previous"                  = "Previous";
+"confirm"                   = "Confirm";
+"connecting"                   = "Connecting";
+"retry"                     = "Retry";
+
+"passcodeNotMatch"          = "Passcode did not match. Try Again";
+"balanceNotEnough"          = "Your account balance isn't enough to tip. \nYour balance:";
+"deleteCardConfirm"         = "Are you sure you want to delete this card?";
+"cardNumber"                = "Card Number";
+"expirationDate"            = "Expiration Date";
+"cvc"                       = "CVC";
+"noCamera"                  = "Your device doesn't have a camera";
+"noPhotoLibrary"            = "Your device doesn't have a photo library";
+"unknownError"              = "Something went wrong.";
+"phoneNumberInvalid"        = "Phone number is invalid.";
+"addFriendSuccess"          = "Added %@ to your favorites.";
+"removeFriendSuccess"       = "Removed %@ from your favorites.";
+"resendCodeSuccess"         = "Resend validation code success.";
+"enterPasscode"             = "Enter Passcode";
+"repeatPasscode"            = "Repeat Passcode";
+"welcomeBack"               = "Welcome back, ";
+"cardNumberInvalid"         = "Card number is invalid.";
+"changePhoto"               = "Change Photo";
+"userAlreadyInFavorites"    = " is already in your Favorites";
+"addPhoto"                  = "Add Photo";
+"changePhoto"               = "Change Photo";
+"verifying"                 = "Verifying";
+"verified"                  = "Verified!";
+"invalidVerificationCode"   = "Invalid Verification Code \nPlease Try Again";
+"passcodeNotMatch"          = "Passcode did not match. Try Again";
+"setPinCodeDescription"     = "You have to set a passcode before you can start Tipping. Do you want to do so now?";
+"firstName"                 = "First Name";
+"lastName"                  = "Last Name";
+"noCardForWithdrawal"       = "There is no credit card for withdrawal";
+"enterYourEmail"            = "enter your email";
+"tipperTitle"               = "Tipper";
+"sendTipsPeriod"            = "Send Tips. Period.";
+
+//MARK Placeholder texts
+
+"publicName"                = "Public Name";
+"password"                  = "Password";
+"repeatPassword"            = "Repeat Password";
+
+//Settings table
+"settings"                  = "Settings";
+"editProfile"               = "Edit Profile";
+"passcode"                  = "Passcode";
+"addCard"                   = "Add Card";
+"history"                   = "History";
+"balance"                   = "Balance";
+"balanceAndHistory"         = "Balance & History";
+"terms"                     = "Terms & Conditions";
+"privacy"                   = "Privacy";
+"logout"                    = "Log Out";
+
+
+//History
+"sent"                      = "Sent";
+"received"                  = "Received";
+
+// Create Account
+"createAccount"             = "Create Account";
+"creatingAccount"           = "Creating Account";
+
+// MobileViewController
+"validationRequired"        = "Validation Required";
+"enterPhoneNumberTitle"     = "Enter your mobile number \nto recieve a free validation code";
+
+// ValidationCodeViewController
+"validationCode"            = "Validation Code";
+"resend"                    = "Resend";
+"validationCodeTitle"       = "You should be getting a \ntext message shortly";
+
+
+"sending"                   = "Sending";
+"resending"                 = "Resending";
+
+// MainViewController
+"iWantToTip"                = "I want to tip";
+"mainSearchBoxPlaceholder"  = "username, email or mobile number";
+"checkingEmail"             = "Checking Email";
+"checkingPassword"          = "Checking Password";
+"accessingContacts"         = "Syncing Contacts";
+"loggingIn"                 = "Logging In";
+"showNearbyUsers"           = "Nearby";
+
+//SettingsViewController
+"loading"                   = "Loading";
+"faq"                       = "Frequently Asked Questions";
+
+//ProfileViewController
+"addToFavorites"            = "Add to Favorites";
+"removeFromFavorites"       = "Remove from Favorites";
+
+//EditProfileViewController
+"saving"                    = "Saving";
+
+//CMSPageViewController
+
+"termsAndPrivacy"           = "Terms & Conditions";
+
+//Password module
+"savingPasscode"            = "Saving Passcode";
+"savingPassword"            = "Saving Password";
+
+
+"sendingEmail"              = "Sending Email";
+"newPassword"               = "New Password";
+"changePassword"            = "Change Password";
+"forgotPassword?"           = "Forgot password?";
+"sendingVerificationCode"   = "Sending Verification Code";
+
+"emailSent"                 = "Email Sent";
+
+"addDebitCard"              = "Add Debit Card";
+"addCard"                   = "Add Card";
+"addDebitCardExplaination"  = "You can only withdraw funds into a debit card";
+"addingCard"                = "Adding Card...";
+
+"sending"                   = "Sending";
+"sent"                      = "Sent";
+"failed"                    = "Failed";
+
+//ComfirmViewController
+"aDollar"                   = "a dollar";
+"dollars"                   = "dollars";
+"cent"                      = "cent";
+"cents"                     = "cents";
+
+
+"name"                      = "Name";
+"lastname"                  = "Lastname";
+
+"withdrawConfirmation"      = "It can take 7 days";
+
+
+//errors in password module for alert
+"pleaseEnterAPassword"      = "Please enter a password";
+"pleaseRepeatThePassword"   = "Please repeat the password";
+"passwordsDontMatch"        = "Passwords don't match";
+"passwordTooShort"          = "Password too short";
+"passwordTooLong"           = "Password too long";
+"passwordLengthInstruction" = "Password must be 5 to 20 characters in length";
+"resetPasswordLinkExpired"  = "Reset password link expired";
+"searchingForFriends"   = "Searching for friends";
+"searchingForNearbyUsers"   = "Searching for nearby users";
+"stillTipEmail"           = "Would you still like to send a tip to this email?";
+"stillTipPhone"           = "Would you still like to send a tip to this phone?";
+"accountDoesn'tExist"       = "Account doesn't exist";
+"noNearbyUsers"             = "No nearby users\nContinue searching in background";
+"searchingForNearbyUsers"   = "Searching for nearby users";
+"selectCardToTipFrom"       = "Select a card to tip from:";
+"loggingOut"                = "Logging Out";
+

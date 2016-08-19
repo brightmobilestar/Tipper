@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <scenes>
+        <!--Edit Avatar-->
+        <scene sceneID="PrS-iR-BcY">
+            <objects>
+                <viewController storyboardIdentifier="KNEditImageViewController" id="oT3-Pv-1Py" customClass="KNEditImageViewController" customModule="Tipper" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8Jy-Xu-lh9"/>
+                        <viewControllerLayoutGuide type="bottom" id="6b2-Hv-OMS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3sz-bv-PKK">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="30r-qo-mXQ">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="556"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ueQ-Z1-DOO">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="556"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="centerX" secondItem="ueQ-Z1-DOO" secondAttribute="centerX" id="43g-0c-Z1H"/>
+                                    <constraint firstAttribute="bottom" secondItem="ueQ-Z1-DOO" secondAttribute="bottom" id="GaI-Lj-vAF"/>
+                                    <constraint firstAttribute="centerY" secondItem="ueQ-Z1-DOO" secondAttribute="centerY" id="VbB-Ro-4cD"/>
+                                    <constraint firstAttribute="trailing" secondItem="ueQ-Z1-DOO" secondAttribute="trailing" id="kvD-xB-spm"/>
+                                    <constraint firstItem="ueQ-Z1-DOO" firstAttribute="leading" secondItem="30r-qo-mXQ" secondAttribute="leading" id="rmf-mW-Ifr"/>
+                                    <constraint firstItem="ueQ-Z1-DOO" firstAttribute="top" secondItem="30r-qo-mXQ" secondAttribute="top" id="tfS-Sr-U2K"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="delegate" destination="oT3-Pv-1Py" id="0No-d0-GjB"/>
+                                </connections>
+                            </scrollView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7i2-Hj-e3u">
+                                <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="j1r-sx-e3e"/>
+                                </constraints>
+                                <items>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="3Oa-QO-HX4"/>
+                                    <barButtonItem title="Retake" style="plain" id="eJh-90-oes">
+                                        <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="bu5-su-DZJ">
+                                            <rect key="frame" x="0.0" y="556" width="300" height="44"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <state key="normal" title="Retake">
+                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="retakeAvatarPressed:" destination="oT3-Pv-1Py" eventType="touchUpInside" id="lqD-Nj-s93"/>
+                                            </connections>
+                                        </button>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="NT5-9B-6ED"/>
+                                    <barButtonItem title="Use" style="plain" id="tFn-ND-n5I">
+                                        <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="peE-sQ-DGO">
+                                            <rect key="frame" x="300" y="556" width="300" height="44"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <state key="normal" title="Use">
+                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="useAvatarPressed:" destination="oT3-Pv-1Py" eventType="touchUpInside" id="0db-vQ-Lbm"/>
+                                            </connections>
+                                        </button>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Wgo-vp-WXe"/>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="6b2-Hv-OMS" firstAttribute="top" secondItem="7i2-Hj-e3u" secondAttribute="bottom" id="2hg-sr-mlC"/>
+                            <constraint firstAttribute="bottom" secondItem="30r-qo-mXQ" secondAttribute="bottom" constant="44" id="3m0-vU-psP"/>
+                            <constraint firstAttribute="trailing" secondItem="30r-qo-mXQ" secondAttribute="trailing" id="UcE-QL-f5H"/>
+                            <constraint firstAttribute="trailing" secondItem="7i2-Hj-e3u" secondAttribute="trailing" id="Vri-6z-JcZ"/>
+                            <constraint firstItem="30r-qo-mXQ" firstAttribute="leading" secondItem="3sz-bv-PKK" secondAttribute="leading" id="beH-nG-EMF"/>
+                            <constraint firstItem="30r-qo-mXQ" firstAttribute="top" secondItem="3sz-bv-PKK" secondAttribute="top" id="cnA-vb-gHi"/>
+                            <constraint firstItem="7i2-Hj-e3u" firstAttribute="leading" secondItem="3sz-bv-PKK" secondAttribute="leading" id="fh3-3g-doM"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Edit Avatar" id="iQs-BQ-kTJ"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="EditImageView" destination="ueQ-Z1-DOO" id="KTu-W1-qe9"/>
+                        <outlet property="ImageScrollView" destination="30r-qo-mXQ" id="Zxt-tB-3Ea"/>
+                        <outlet property="btnRetake" destination="bu5-su-DZJ" id="ycR-cQ-ORG"/>
+                        <outlet property="btnUse" destination="peE-sQ-DGO" id="V1h-2o-7SQ"/>
+                        <outlet property="controlToolbar" destination="7i2-Hj-e3u" id="kcR-P5-8w9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x2o-ma-MCy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1055" y="248"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="dIJ-Ly-jIZ">
+            <objects>
+                <navigationController storyboardIdentifier="UINavigationController" automaticallyAdjustsScrollViewInsets="NO" id="QYA-Ev-czr" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" hidden="YES" contentMode="scaleToFill" id="nHA-P3-qOr">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="oT3-Pv-1Py" kind="relationship" relationship="rootViewController" id="1br-hi-tbN"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JGp-ML-gJ7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="243" y="248"/>
+        </scene>
+    </scenes>
+</document>

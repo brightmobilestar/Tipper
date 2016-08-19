@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D75CB930-BBC0-4A07-B744-9C26B3FE453D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Tipper</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1F2385519A228440DFA9B3CBF2FF558B8346F0C4</key>
+		<string>https://bitbucket.org/weknodeit/ios-tipper.git</string>
+		<key>EE6AE408738202F0CADF454E4F18762F3868A399</key>
+		<string>https://bitbucket.org/weknodeit/ios-knodeit-modular.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Tipper/Tipper.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1F2385519A228440DFA9B3CBF2FF558B8346F0C4</key>
+		<string>../../..</string>
+		<key>EE6AE408738202F0CADF454E4F18762F3868A399</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/weknodeit/ios-tipper.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1F2385519A228440DFA9B3CBF2FF558B8346F0C4</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EE6AE408738202F0CADF454E4F18762F3868A399</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1F2385519A228440DFA9B3CBF2FF558B8346F0C4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ios-Tipper</string>
+		</dict>
+	</array>
+</dict>
+</plist>

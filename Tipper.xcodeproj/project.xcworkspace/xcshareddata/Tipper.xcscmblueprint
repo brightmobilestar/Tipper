@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1F2385519A228440DFA9B3CBF2FF558B8346F0C4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "1F2385519A228440DFA9B3CBF2FF558B8346F0C4" : 0,
+    "EE6AE408738202F0CADF454E4F18762F3868A399" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D75CB930-BBC0-4A07-B744-9C26B3FE453D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "1F2385519A228440DFA9B3CBF2FF558B8346F0C4" : "ios-Tipper",
+    "EE6AE408738202F0CADF454E4F18762F3868A399" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Tipper",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Tipper\/Tipper.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/weknodeit\/ios-tipper.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1F2385519A228440DFA9B3CBF2FF558B8346F0C4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/weknodeit\/ios-knodeit-modular.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EE6AE408738202F0CADF454E4F18762F3868A399"
+    }
+  ]
+}
